@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+<style>
+    #questionScreen {
+        text-align: center;
+        border-radius: 4px;
+        /* margin: 50px auto 50px auto; */
+        padding: 5px;
+        /* color: white; */
+        /*background-color: rgba(255,255,255,0.9);*/
+        margin: 0 auto;
+        width: 50%;
+        position: absolute;
+        bottom: 20%;
+        left: 25%;
+        background: #00a6ff;
+    }
+
+    tr td, tr th {
+        padding: 10px 0;
+    }
+    body{
+        background-image: url("img/images.jpg");
+        background-size: cover;
+    }
+    #point{
+        text-align: center;
+        border-radius: 4px;
+        bottom: 20%;
+
+    }
+    #time1{
+        width: 20px;
+    }
+    h2{
+        color: mediumvioletred;
+    }
+    #question{
+        background-color: blanchedalmond;
+    }
+    #asw1{
+        background-color: aliceblue;
+    }
+    #asw2{
+        background-color: aliceblue;
+    }
+    #asw3{
+        background-color: aliceblue;
+    }
+    #asw4{
+        background-color: aliceblue;
+    }
+    .blinking{
+        animation:blinkingText 1.2s infinite;
+    }
+    @keyframes blinkingText{
+        0%{     color: #000;    }
+        49%{    color: #000; }
+        60%{    color: transparent; }
+        99%{    color:transparent;  }
+        100%{   color: #000;    }
+    }
+
+</style>
+<span class="blinking">Ấn vào ô bên dưới</span>
+
+<body>
+<div id='point'>
+    <h2 id="result"></h2>
+</div>
+<!--<div>-->
+<!--   <h2>-->
+<!--     Thời Gian:<span id="time1"></span>-->
+<!--   </h2>-->
+<!--</div>-->
+<div id="img"></div>
+
+<div id="questionScreen">
+
+
+    <table border="1px" width="100%">
+        <tr >
+            <th id="question" colspan="2" idQuestion=""></th>
+        </tr>
+        <tr>
+            <td id="asw1" onclick="chooseAnswer(this.id)">asw1</td>
+            <td id="asw2" onclick="chooseAnswer(this.id)">asw2</td>
+        </tr>
+        <tr>
+            <td id="asw3" onclick="chooseAnswer(this.id)">asw3</td>
+            <td id="asw4" onclick="chooseAnswer(this.id)">asw4</td>
+        </tr>
+    </table>
+    <p id="sound"></p>
+</div>
+
+<script src="script.js"></script>
+
+<script src="sound.js"></script>
+
+
+
+</body>
+</html>
+<audio controls autoplay style="display: none">
+    <source src="sound/batdau.ogg" type="audio/ogg">
+    <source src="sound/batdau.ogg" type="audio/mpeg">
+</audio>
