@@ -65,7 +65,7 @@ function chooseAnswer(id) {
         document.getElementById('result').innerHTML = "Tiền thưởng: " + (question[idQuestion].money);
 
         if (idQuestion === 6) {
-           // a.innerHTML = win.getSound()
+            // a.innerHTML = win.getSound()
             alert("Chúc mừng bạn đã giành chiến thắng ");
             timeCount=1
             // window.reload();
@@ -73,7 +73,7 @@ function chooseAnswer(id) {
         next(idQuestion);
     }
     else {
-       // a.innerHTML = soundWrong.getSound();
+        // a.innerHTML = soundWrong.getSound();
         alert('Rất tiếc câu trả lời của bạn là không chính xác chúc bạn may mắn lượt chơi sau ');
         timeCount=1;
         timeID

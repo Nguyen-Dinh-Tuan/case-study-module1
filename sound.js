@@ -16,12 +16,12 @@ let sound = "<audio autoplay>" +
     '<source src="sound/a.ogg" type="audio/ogg">' +
     '</audio>';
 
-let sounD = "<audio autoplay>" +
-    '<source src="sound/batdau.ogg" type="audio/mpeg">' +
-    '</audio>';
-let souND = "<audio autoplay>" +
-    '<source src="sound/sai.ogg" type="audio/mpeg">' +
-    '</audio>';
+// let sounD = "<audio autoplay>" +
+//     '<source src="sound/batdau.ogg" type="audio/mpeg">' +
+//     '</audio>';
+// let souND = "<audio autoplay>" +
+//     '<source src="sound/sai.ogg" type="audio/mpeg">' +
+//     '</audio>';
 
 
 

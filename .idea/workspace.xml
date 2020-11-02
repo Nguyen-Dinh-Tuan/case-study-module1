@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="beed50de-8469-43a7-b543-e80979e8c390" name="Default Changelist" comment="" />
+    <list default="true" id="beed50de-8469-43a7-b543-e80979e8c390" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AiLaTrieuPhu.html" beforeDir="false" afterPath="$PROJECT_DIR$/AiLaTrieuPhu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound.js" beforeDir="false" afterPath="$PROJECT_DIR$/sound.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jaQTgOXuVDglJzWB8CWiE9oI82" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -16,13 +25,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bai-chung/click.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -40,7 +50,16 @@
       <workItem from="1604151360822" duration="1615000" />
       <workItem from="1604194826760" duration="605000" />
       <workItem from="1604199415050" duration="596000" />
-      <workItem from="1604241363847" duration="369000" />
+      <workItem from="1604241363847" duration="719000" />
+      <workItem from="1604280078198" duration="570000" />
+      <workItem from="1604281052374" duration="757000" />
+      <workItem from="1604282014418" duration="1286000" />
+      <workItem from="1604284001601" duration="1671000" />
+      <workItem from="1604286679338" duration="635000" />
+      <workItem from="1604290547210" duration="1713000" />
+      <workItem from="1604292368979" duration="775000" />
+      <workItem from="1604296317052" duration="503000" />
+      <workItem from="1604300041283" duration="591000" />
     </task>
     <servers />
   </component>
@@ -52,9 +71,24 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="727" y="106" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604039866741" />
-    <state x="819" y="114" key="FileChooserDialogImpl" timestamp="1604051730550">
+    <state x="819" y="114" key="FileChooserDialogImpl" timestamp="1604280660156">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="819" y="114" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604051730550" />
+    <state x="819" y="114" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604280660156" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1604283717538">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1604283717538" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/AiLaTrieuPhu.html</url>
+          <line>111</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

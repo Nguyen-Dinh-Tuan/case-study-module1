@@ -71,6 +71,10 @@
 <span class="blinking">Ấn vào ô bên dưới</span>
 
 <body>
+<!--<div>-->
+<!--    Time:-->
+<!--    <span id="time" style="position: absolute;left: 0% ;top:50px;color: red" ></span>-->
+<!--</div>-->
 <div id='point'>
     <h2 id="result"></h2>
 </div>
@@ -103,12 +107,44 @@
 <script src="script.js"></script>
 
 <script src="sound.js"></script>
+<script>
+    // function startTimer(duration, display) {
+    //     var start = Date.now(),
+    //         diff,
+    //         minutes,
+    //         seconds;
+    //     function timer() {
+    //         // get the number of seconds that have elapsed since
+    //         // startTimer() was called
+    //         diff = duration - (((Date.now() - start) / 1000) | 0);
+    //         // does the same job as parseInt truncates the float
+    //         minutes = (diff / 60) | 0;
+    //         seconds = (diff % 60) | 0;
+    //         minutes = minutes < 10 ? "0" + minutes : minutes;
+    //         seconds = seconds < 10 ? "0" + seconds : seconds;
+    //         display.textContent = minutes + ":" + seconds;
+    //         if (diff == 0) {
+    //             // add one second so that the count down starts at the full duration
+    //             // example 05:00 not 04:59
+    //      alert("HÊT GIỜ MỜI BẠN CHƠI LẠI");
+    //         }
+    //     };
+    //     // we don't want to wait a full second before the timer starts
+    //     timer();
+    //     setInterval(timer, 1000);
+    // }
+    // window.onload = function () {
+    //     var fiveMinutes = 60 * 3,
+    //         display = document.querySelector('#time');
+    //     startTimer(fiveMinutes, display);
+    // }
+</script>
 
 
 
 </body>
 </html>
 <audio controls autoplay style="display: none">
-    <source src="sound/batdau.ogg" type="audio/ogg">
-    <source src="sound/batdau.ogg" type="audio/mpeg">
+    <source src="sound/nen.mp3." type="audio/mp3">
+    <source src="sound/nen.mp3" type="audio/mpeg">
 </audio>
